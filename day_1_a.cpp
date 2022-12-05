@@ -9,7 +9,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
-    string filePath = "../puzzle_1_a.txt";
+    string filePath = "../puzzle_1.txt";
     ifstream inFile(filePath, ios_base::in);
 
     int highest_load = -1;

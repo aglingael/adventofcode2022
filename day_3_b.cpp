@@ -11,7 +11,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
-    string filePath = "../puzzle_3_b.txt";
+    string filePath = "../puzzle_3.txt";
     ifstream inFile(filePath, ios_base::in);
 
     if (inFile.good()) {
